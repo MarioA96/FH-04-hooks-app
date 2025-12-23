@@ -64,3 +64,19 @@ y la organizacion del codigo.
 - Respuesta: Falso
 - Dato: En modo de desarrollo, React.StrictMode intencionalmente monta, desmonta y vuelve a montar los componentes para ayudar a identificar efectos secundarios no deseados. Esto puede causar que los efectos se ejecuten dos veces, pero en produccion esto no ocurre.
 ---
+
+## Seccion 5 - useReducer, validadores de esquemas, ShadcnUI y Context API
+
+En esta sección trabajaremos con el hook "useReducer”, el cual está diseñado para ayudarnos a resolver estados donde una acción puede desencadenar varios cambios de estado simultáneamente, pero también se puede usar para cosas simples también, pero su poder radica en que puedes colocar nombres humanamente legibles para las acciones que cambian el estado.
+
+Puntualmente veremos:
+
+   - Patron reducer
+   - useReducer hook
+   - Validadores de esquemas - Zod
+   - Efectos sobre estados
+   - LocalStorage y SessionStorage
+   - Condiciones de los reducers
+   - Tareas y ejercicios adicionales
+
+---
